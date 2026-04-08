@@ -12,7 +12,7 @@ public class GroupAnagrams {
 		for(int i=0;i<arr.length;i++) {
 			
 			if(visited[i]==false) {
-				ArrayList list = new ArrayList();
+				ArrayList<String> list = new ArrayList<String>();
 				list.add(arr[i]);
 				for(int j=i+1;j<arr.length;j++) {
 					if(arr[i].length()==arr[j].length()) {
